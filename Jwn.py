@@ -197,16 +197,19 @@ os.system("xdg-open https://chat.whatsapp.com/ELLVRskIk9X0uDUhWnGp2L ")
 logo =""" 
 ╔─────────────────────────────────────────────╗
 
-888b    888        d8888 8888888b. 8888888 888b     d888       .d8888b.  
-8888b   888       d88888 888  "Y88b  888   8888b   d8888      d88P  Y88b 
-88888b  888      d88P888 888    888  888   88888b.d88888      888    888 
-888Y88b 888     d88P 888 888    888  888   888Y88888P888      888        
-888 Y88b888    d88P  888 888    888  888   888 Y888P 888      888  88888 
-888  Y88888   d88P   888 888    888  888   888  Y8P  888      888    888 
-888   Y8888  d8888888888 888  .d88P  888   888   "   888      Y88b  d88P 
-888    Y888 d88P     888 8888888P" 8888888 888       888       "Y8888P88 
-                                                                         
-                                                                                                                                                
+
+  
+888b    888        d8888 8888888b. 8888888 888b     d888 
+8888b   888       d88888 888  "Y88b  888   8888b   d8888 
+88888b  888      d88P888 888    888  888   88888b.d88888 
+888Y88b 888     d88P 888 888    888  888   888Y88888P888 
+888 Y88b888    d88P  888 888    888  888   888 Y888P 888 
+888  Y88888   d88P   888 888    888  888   888  Y8P  888 
+888   Y8888  d8888888888 888  .d88P  888   888   "   888 
+888    Y888 d88P     888 8888888P" 8888888 888       888 
+                                                         
+                                                                                                                                                                                  
+                                                                                                                                            
 ╚─────────────────────────────────────────────╝
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 ║\33[0;41m        [ WORKING ONLY MOBILE DATA ]         \033[0;92m║
@@ -214,7 +217,7 @@ logo ="""
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
 [AUTHOR     • \33[1;38mNADEEM TRICKER ]\33[1;38m     \033[1;31m
 [FACEBOOK   • FEELINGS FUCKER NADEEM DON HERE    \033[1;97m  
-[GITHUB     • \33[1;38mERIIC-HERE-21 ]   \33[1;34m   
+[GITHUB     • \33[1;38mPARDHAN-KIING-21 ]   \33[1;34m   
 [REGIONAL   • NEPAL ]  \33[1;35m 
 [TOOLS      • PAID ]          \33[1;32m   
 [VERSION    • 0.2 ]          \033[1;35m 
@@ -251,7 +254,7 @@ def login_lagi334():
         print(logo)
         ses = requests.Session()
         cookies = {'cookie':cookie}
-        url = 'https://www.facebook.com/adsmanager/manage/campaigns'
+        url = https://www.facebook.com/adsmanager/manage/campaigns'
         req = ses.get(url,cookies=cookies)
         set = re.search('act=(.*?)&nav_source',str(req.content)).group(1)
         nek = '%s?act=%s&nav_source=no_referrer'%(url,set)
